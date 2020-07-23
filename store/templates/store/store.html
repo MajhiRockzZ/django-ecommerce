@@ -1,13 +1,5 @@
+{% extends 'store/main.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Store</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
-</head>
-<body>
-<h1>Store</h1>
-<img src="{% static 'images/cart.png' %}" alt="cart logo">
-</body>
-</html>
+{% block content %}
+    <h3>Store</h3>
+{% endblock content %}
